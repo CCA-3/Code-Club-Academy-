@@ -831,7 +831,7 @@ main .slider {
         font-size: .875rem;
         color: #333;
         border: 1px solid #eee; }
-      .get-in-bg-main .wrapper .content form .form-group a {
+      .get-in-bg-main .wrapper .content form .form-group button {
         display: inline-block;
         color: #fff;
         background: #316c9e;
