@@ -38,14 +38,14 @@ img {
 
 
   /* carousel */
-.carousel-indicators img{
+.inc img{
     width: 70px;
     display: block;
 }
-.carousel-indicators button{
+.inc button{
     width: max-content!important;
 }
-.carousel-indicators{
+.inc{
     position: unset;
 }
 /* carousel */
@@ -296,57 +296,57 @@ html {
   background: rgba(0, 0, 0, 0.8);
   position: relative; }
 
-main .slider {
-  padding: 0; }
-  main .slider #carouselExampleIndicators .carousel-item .banner-content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; }
-    @media screen and (max-width: 767.98px) {
-      main .slider #carouselExampleIndicators .carousel-item .banner-content {
-        display: none; } }
-    main .slider #carouselExampleIndicators .carousel-item .banner-content h1 {
-      color: #fff;
-      text-transform: uppercase;
-      font-size: 3rem;
-      letter-spacing: 1px;
-      text-align: center;
-      font-weight: 300;
-      position: relative;
-      margin: 0 0 .625rem 0; }
-      main .slider #carouselExampleIndicators .carousel-item .banner-content h1 span {
-        display: block; }
-    main .slider #carouselExampleIndicators .carousel-item .banner-content ol li {
-      display: inline-block;
-      margin: .625rem .75rem;
-      position: relative;
-      padding: .3125rem .8125rem;
-      border: solid 0.0625rem #fff;
-      position: relative;
-      transition: all ease-in-out .5s; }
-      main .slider #carouselExampleIndicators .carousel-item .banner-content ol li:hover {
-        background: #fff; }
-        main .slider #carouselExampleIndicators .carousel-item .banner-content ol li:hover a {
-          color: #316c9e; }
-        main .slider #carouselExampleIndicators .carousel-item .banner-content ol li:hover:nth-child(1) {
-          background: #316c9e;
-          border-color: #316c9e; }
-          main .slider #carouselExampleIndicators .carousel-item .banner-content ol li:hover:nth-child(1) a {
-            color: #fff; }
-      main .slider #carouselExampleIndicators .carousel-item .banner-content ol li a {
-        font-size: .9375rem;
+  main .slider {
+    padding: 0; }
+    main .slider #carouselExampleIndicators .carousel-item .banner-content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      @media screen and (max-width: 767.98px) {
+        main .slider #carouselExampleIndicators .carousel-item .banner-content {
+          display: none; } }
+      main .slider #carouselExampleIndicators .carousel-item .banner-content h1 {
         color: #fff;
-        text-transform: capitalize; }
-      main .slider #carouselExampleIndicators .carousel-item .banner-content ol li:nth-child(1) {
-        background: #fff; }
-        main .slider #carouselExampleIndicators .carousel-item .banner-content ol li:nth-child(1) a {
-          color: #316c9e; }
+        text-transform: uppercase;
+        font-size: 3rem;
+        letter-spacing: 1px;
+        text-align: center;
+        font-weight: 300;
+        position: relative;
+        margin: 0 0 .625rem 0; }
+        main .slider #carouselExampleIndicators .carousel-item .banner-content h1 span {
+          display: block; }
+      main .slider #carouselExampleIndicators .carousel-item .banner-content ol li {
+        display: inline-block;
+        margin: .625rem .75rem;
+        position: relative;
+        padding: .3125rem .8125rem;
+        border: solid 0.0625rem #fff;
+        position: relative;
+        transition: all ease-in-out .5s; }
+        main .slider #carouselExampleIndicators .carousel-item .banner-content ol li:hover {
+          background: #fff; }
+          main .slider #carouselExampleIndicators .carousel-item .banner-content ol li:hover a {
+            color: #316c9e; }
+          main .slider #carouselExampleIndicators .carousel-item .banner-content ol li:hover:nth-child(1) {
+            background: #316c9e;
+            border-color: #316c9e; }
+            main .slider #carouselExampleIndicators .carousel-item .banner-content ol li:hover:nth-child(1) a {
+              color: #fff; }
+        main .slider #carouselExampleIndicators .carousel-item .banner-content ol li a {
+          font-size: .9375rem;
+          color: #fff;
+          text-transform: capitalize; }
+        main .slider #carouselExampleIndicators .carousel-item .banner-content ol li:nth-child(1) {
+          background: #fff; }
+          main .slider #carouselExampleIndicators .carousel-item .banner-content ol li:nth-child(1) a {
+            color: #316c9e; }
 
 .team {
   padding: 40px 0px;
