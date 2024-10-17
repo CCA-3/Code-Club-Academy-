@@ -93,8 +93,8 @@ section {
     }
     @media (min-width: 601px) and (max-width: 700px) {
       iframe{
-        height: 300px !important;
-        width: 550px !important;
+        height: 300px ;
+        width: 550px ;
       }
     }
 .container {
