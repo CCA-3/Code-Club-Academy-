@@ -72,19 +72,40 @@ section {
   overflow: hidden; }
   @media screen and (max-width: 575.98px) {
     section {
-      padding: 1.25rem 0; } }
+      padding: 1.25rem 0; } 
+      }
+      
   @media (min-width: 576px) and (max-width: 767.98px) {
     section {
-      padding: 1.875rem 0; } }
-
+      padding: 1.875rem 0; } 
+      
+      iframe{
+        height: 510px;
+        width: 600px;
+      }
+    }
+      
+    @media (min-width: 1440px) and (max-width: 2000px) {
+      iframe{
+        height: 720px !important;
+        width: 1080px !important;
+      }
+    }
 .container {
   max-width: 1170px; }
   @media screen and (max-width: 575px) {
     .container {
       padding: 0px 15px;
       max-width: 100%;
-      width: 100%; } }
-
+      width: 100%; } 
+  
+    }
+    @media (min-width: 420px) and (max-width: 600px) {
+      iframe{
+        height: 300px !important;
+        width: 400px !important;
+      }
+    }
 .margin-top-20 {
   margin-top: 1.25rem; }
 
@@ -160,7 +181,13 @@ html {
       align-items: center; }
       @media screen and (max-width: 991px) {
         .top-nav .top-sec-main .top-sec-2 {
-          display: none; } }
+          display: none; } 
+          iframe{
+            height: 500px;
+            width: 720px;
+          }
+        
+        }
       .top-nav .top-sec-main .top-sec-2 ol .last {
         border: none !important; }
       .top-nav .top-sec-main .top-sec-2 ol li {
@@ -172,8 +199,10 @@ html {
           font-size: 20px; }
   @media screen and (max-width: 768px) {
     .top-nav {
-      display: none; } }
-
+      display: none; } 
+    }
+    
+  
 ._main_nav {
   position: absolute;
   z-index: 999;
@@ -246,6 +275,7 @@ html {
   font-family: 'Poppins', sans-serif;
 }
 
+
 .link-01:hover a {
   border: none !important;
   color: #fff !important; }
@@ -261,6 +291,7 @@ html {
     visibility: visible;
     opacity: 1;
     display: block; }
+    
 
   .menu.active {
     display: block;
@@ -291,7 +322,10 @@ html {
     padding: 18px 15px; } }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .menu ul li {
-    padding: 18px 35px; } }
+    padding: 18px 35px; } 
+  }
+
+
 .main-nav-sup {
   background: rgba(0, 0, 0, 0.8);
   position: relative; }
@@ -560,7 +594,13 @@ html {
           flex: 1 1 100%;
           -webkit-flex-direction: 1 1 100%;
           -moz-flex-direction: 1 1 100%;
-          -ms-flex-direction: 1 1 100%; } }
+          -ms-flex-direction: 1 1 100%; }
+        
+          iframe{
+            height: 200px;
+            width: 300px;
+          }
+        }
       @media (min-width: 376px) and (max-width: 767.98px) {
         .bg-01 .card-feautures-main .card-feautures-sup {
           width: 50%;
